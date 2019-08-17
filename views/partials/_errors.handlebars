@@ -1,0 +1,13 @@
+{{!-- Error Handler for Passport --}}
+{{#if error}}
+<div class="alert alert-danger">{{error}}</div>
+{{/if}}
+
+
+
+{{!-- Error Handler for tasks, register --}}
+{{#each errors}}
+<div class="alert alert-danger">{{msg}}</div>
+{{else}}
+
+{{/each}}
